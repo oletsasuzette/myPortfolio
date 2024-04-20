@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suzette | Portfolio</title>
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- Link to your JavaScript file -->
+    <script src="../js/index.js" defer></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <h1>Suzette</h1>
+        <div class="topnav" id="myTopnav">
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html" class="active">Contact</a>
+          <a
+            href="javascript:void(0);"
+            class="icon"
+            onclick="navMenu()"
+            title="menu"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+
+      <div class="contact-info">
+        <p>Email: suzette@gmail.com</p>
+        <p>Phone: +254 712345678</p>
+      </div>
+
+      <div class="contact-form">
+        <form id="inquiryForm" action="#" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <ul class="social-links">
+        <li>
+          <a href="https://www.linkedin.com/"
+            ><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+            |</a
+          >
+        </li>
+
+        <li>
+          <a href="https://twitter.com/"
+            ><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter
+            |</a
+          >
+        </li>
+
+        <li>
+          <a href="https://github.com/"
+            ><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</a
+          >
+        </li>
+      </ul>
+      <p>&copy; 2024 Suzette | Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

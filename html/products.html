@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suzette | Portfolio</title>
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- Link to your JavaScript file -->
+    <script src="../js/index.js" defer></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <h1>Suzette</h1>
+        <div class="topnav" id="myTopnav">
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html" class="active">Products</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+          <a
+            href="javascript:void(0);"
+            class="icon"
+            onclick="navMenu()"
+            title="menu"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Projects Section -->
+    <h2>Projects</h2>
+    <section id="products" class="products">
+      <div class="product">
+        <img src="../assets/image1.jpg" alt="Project 1" />
+        <div class="product-info">
+          <h3>Project 1</h3>
+          <p>Description of Project 1</p>
+          <p>Technologies Used: HTML5, CSS3, JavaScript</p>
+          <a onclick="displayProjectDetails('Project 1')">View Details</a>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../assets/image2.jpg" alt="Project 2" />
+        <div class="product-info">
+          <h3>Project 2</h3>
+          <p>Description of Project 2</p>
+          <p>Technologies Used: React, Node.js, MongoDB</p>
+          <a onclick="displayProjectDetails('Project 2')">View Details</a>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../assets/image3.jpg" alt="Project 2" />
+        <div class="product-info">
+          <h3>Project 3</h3>
+          <p>Description of Project 3</p>
+          <p>Technologies Used: React, Node.js, MongoDB</p>
+          <a onclick="displayProjectDetails('Project 3')">View Details</a>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../assets/image3.jpg" alt="Project 2" />
+        <div class="product-info">
+          <h3>Project 4</h3>
+          <p>Description of Project 4</p>
+          <p>Technologies Used: React, Node.js, MongoDB</p>
+          <a onclick="displayProjectDetails('Project 4')">View Details</a>
+        </div>
+      </div>
+      <!-- Add more project divs as needed -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer">
+      <ul class="social-links">
+        <li>
+          <a href="https://www.linkedin.com/"
+            ><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+            |</a
+          >
+        </li>
+
+        <li>
+          <a href="https://twitter.com/"
+            ><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter
+            |</a
+          >
+        </li>
+
+        <li>
+          <a href="https://github.com/"
+            ><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</a
+          >
+        </li>
+      </ul>
+      <p>&copy; 2024 Suzette | Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
